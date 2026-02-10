@@ -1,0 +1,61 @@
+/* Medieval Theme CSS */
+body {
+    background: #f4f1e9 url('../img/bg-parchment.png');
+    color: #3e2c0a;
+    font-family: 'EB Garamond', 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background: #7c5c2a;
+    color: #fffbe6;
+    padding: 1em 0;
+    text-align: center;
+    border-bottom: 4px solid #c9b18a;
+}
+
+
+header h1 {
+    color: #fffbe6;
+}
+
+h1, h2, h3 {
+    font-family: 'UnifrakturCook', cursive;
+    color: #5a3a0a;
+    text-shadow: 1px 1px 0 #c9b18a;
+}
+a {
+    color: #7c5c2a;
+    text-decoration: underline;
+}
+a:hover {
+    color: #c9b18a;
+}
+nav {
+    background: #c9b18a;
+    padding: 0.5em;
+    border-bottom: 2px solid #7c5c2a;
+}
+nav a {
+    margin: 0 1em;
+    color: #3e2c0a;
+    font-weight: bold;
+}
+article {
+    background: rgba(255,255,255,0.85);
+    margin: 2em auto;
+    padding: 2em;
+    max-width: 800px;
+    border: 2px solid #c9b18a;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(60,40,10,0.1);
+}
+img.placeholder {
+    display: block;
+    margin: 2em auto;
+    width: 300px;
+    height: 200px;
+    background: #c9b18a url('../img/placeholder-medieval.png') center/cover no-repeat;
+    border: 2px dashed #7c5c2a;
+    border-radius: 6px;
+}
