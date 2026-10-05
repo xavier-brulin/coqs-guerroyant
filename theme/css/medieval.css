@@ -13,12 +13,6 @@ header, footer {
     text-align: center;
     border-bottom: 4px solid #c9b18a;
 }
-
-
-header h1 {
-    color: #fffbe6;
-}
-
 h1, h2, h3 {
     font-family: 'UnifrakturCook', cursive;
     color: #5a3a0a;
